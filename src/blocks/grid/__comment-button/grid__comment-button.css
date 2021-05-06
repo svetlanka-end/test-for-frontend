@@ -1,0 +1,13 @@
+.grid__comment-button {
+  background-image: url(../../../images/speech-bubble.svg);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  margin: 0 0 0 20px;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #fff;
+}

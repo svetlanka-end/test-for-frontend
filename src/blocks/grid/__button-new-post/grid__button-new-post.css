@@ -1,0 +1,13 @@
+.grid__button-new-post {
+  height: 40px;
+  width: 150px;
+  border: 2px #000 solid;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.grid__button-new-post:hover {
+  opacity: 0.2;
+}

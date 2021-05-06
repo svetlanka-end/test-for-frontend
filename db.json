@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "title": "Test",
+      "body": "totoska",
+      "id": 2
+    },
+    {
+      "title": "Test",
+      "body": "Test",
+      "id": 3
+    },
+    {
+      "title": "Test",
+      "body": "Test",
+      "id": 4
+    },
+    {
+      "title": "Test",
+      "body": "Test2",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "body": "totoska",
+      "postid": "6",
+      "id": 7
+    },
+    {
+      "body": "totoska",
+      "postid": "7",
+      "id": 8
+    },
+    {
+      "body": "totoska",
+      "postid": "7",
+      "id": 9
+    },
+    {
+      "body": "totoska",
+      "postid": "3",
+      "id": 11
+    },
+    {
+      "body": "totoska",
+      "postid": "2",
+      "id": 14
+    },
+    {
+      "body": "test",
+      "postid": "2",
+      "id": 15
+    },
+    {
+      "body": "totoska",
+      "postid": "2",
+      "id": 16
+    }
+  ]
+}

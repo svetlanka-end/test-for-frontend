@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/page/__container/page__container.css);
+@import url(./blocks/grid/__title/grid__title.css);
+@import url(./blocks/grid/grid.css);
+@import url(./blocks/grid/__container/grid__container.css);
+@import url(./blocks/grid/__element/grid__element.css);
+@import url(./blocks/grid/__comment-button/grid__comment-button.css);
+@import url(./blocks/grid/__name/grid__name.css);
+@import url(./blocks/grid/__text/grid__text.css);
+@import url(./blocks/grid/__button-new-post/grid__button-new-post.css);
+@import url(./blocks/grid/__title-container/grid__title-container.css);
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/_opened/popup_opened.css);
+@import url(./blocks/popup/__popup-close/popup__popup-close.css);
+@import url(./blocks/popup/__content/popup__content.css);
+@import url(./blocks/popup/__close/popup__close.css);
+@import url(./blocks/popup/__title/popup__title.css);
+@import url(./blocks/popup/__form/popup__form.css);
+@import url(./blocks/popup/__save/popup__save.css);
+@import url(./blocks/popup/__input/popup__input.css);
+@import url(./blocks/grid/__update-button/grid__update-button.css);
+@import url(./blocks/grid/__delete-button/grid__delete-button.css);
+@import url(./blocks/grid/__save-button/grid__save-button.css);
+@import url(./blocks/grid/__change-text-form/grid__change-text-form.css);
+@import url(./blocks/grid/__return-button/grid__return-button.css);
+@import url(./blocks/grid/__text/grid__text_new-comment-input.css);
