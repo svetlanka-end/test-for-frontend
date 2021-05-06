@@ -6,4 +6,4 @@
 
 Запустите фронтенд командой 'npm start'
 
-Приложение запустится по ссылке: [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Приложение запустится по ссылке: [http://localhost:3000](http://localhost:3000) в браузере
