@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 import api from "../server/api";
 
 function Post({ onClickDelete, id, text, name }) {
+  const [isInputDisabled, setInputDisabled] = useState(true);
+
+  const [newPostText, setNewPostText] = useState(text);
+
   function handlePostDelete() {
     onClickDelete(id);
   }
@@ -11,10 +15,6 @@ function Post({ onClickDelete, id, text, name }) {
   function handleUpdatePost() {
     setInputDisabled(!isInputDisabled);
   }
-
-  const [isInputDisabled, setInputDisabled] = useState(true);
-
-  const [newPostText, setNewPostText] = useState(text);
 
   const handleChangeText = (e) => {
     setNewPostText(e.target.value);

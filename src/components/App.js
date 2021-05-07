@@ -47,7 +47,7 @@ function App() {
         setPosts(result);
       })
       .catch((err) => {
-        console.log(err);
+        console.error(err);
       });
   }, []);
 
@@ -55,9 +55,7 @@ function App() {
 
   function handleDeletePost(id) {
     api.deletePost(id).then(() => {
-      const newPosts = posts.filter((c) => {
-        return c.id !== id;
-      });
+      const newPosts = posts.filter((c) => c.id !== id);
       setPosts(newPosts);
     });
   }
